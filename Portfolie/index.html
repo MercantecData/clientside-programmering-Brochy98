@@ -3,14 +3,14 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio - Broch</title>
-    <link rel="javascript" href="javascript.js">
+    <script src="javascript.js"></script>
     
 </head>
     <body>
         <div class="title">
             <h1>EMIL BROCH ANDERSEN</h1>
-            <div class="undertitle">
-                <h2>Aspiring Game Developer</h2>
+            <div>
+                <h2 id="undertitle"></h2>
             </div>
         </div>
         <div class= "bg-image"></div>
@@ -19,16 +19,14 @@
             <a href="/pages/myprojects.html">My Projects</a>
             <a href="/pages/gallery.html">Gallery</a>
             <a href="/pages/contact.html">Contact</a>
-            
-            <div class="icons">
-                <img id="facebook" src="/images/facebook.png" alt="Facebook icon">
-                <img id="instagram" src="/images/instagram.png" alt="Instagram icon">
-                <img id="twitter" src="/images/twitter.png" alt="Twitter icon">
-                <img id="youtube" src="/images/youtube.png" alt="Youtube icon">
-            </div>
+            <h3 id="socialmedia">Find me here too</h3>
         </div>
-          <div class="main">
-            ...
-          </div>
+        <div class="icons">
+            <a href="https://da-dk.facebook.com/" target="_blank"><img id="facebook" src="/images/facebook.png" alt="Facebook icon"></a>
+            <a href="https://www.instagram.com/broch_98/" target="_blank"><img id="instagram" src="/images/instagram.png" alt="Instagram icon"></a>
+            <a href="https://twitter.com/realdonaldtrump" target="_blank"><img id="twitter" src="/images/twitter.png" alt="Twitter icon"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img id="youtube" src="/images/youtube.png" alt="Youtube icon"></a>
+        </div>
+          <script>UpdateTitle()</script>
     </body>
 </html>
